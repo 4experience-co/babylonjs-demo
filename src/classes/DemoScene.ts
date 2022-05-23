@@ -19,7 +19,7 @@ class DemoScene {
     );
 
     camera.lowerRadiusLimit = 2;
-    camera.upperRadiusLimit = 25;
+    camera.upperRadiusLimit = 10;
     camera.setTarget(BABYLON.Vector3.Zero());
     camera.attachControl(canvas, true);
     
